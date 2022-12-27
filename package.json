@@ -1,0 +1,44 @@
+{
+  "name": "passport-jsonwebtoken",
+  "version": "1.0.0",
+  "description": "JWT authentication for passport.",
+  "keywords": [
+  	"passport",
+	"jsonwebtoken",
+	"jwt",
+	"auth",
+	"authn",
+	"authentication"
+  ],
+  "main": "./lib",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/viztheman/passport-jsonwebtoken.git"
+  },
+  "bugs": {
+    "url": "https://github.com/viztheman/passport-jsonwebtoken/issues"
+  },
+  "author": "Daniel Hammond",
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "dependencies": {
+    "jsonwebtoken": "^9.0.0",
+    "passport-strategy": "^1.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "express": "^4.18.2",
+    "mocha": "^10.2.0",
+    "passport": "^0.6.0",
+    "sinon": "^15.0.1",
+    "supertest": "^6.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
