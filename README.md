@@ -21,7 +21,7 @@ You'll have to include jsonwebtoken options when you create the strategy. The on
 		//
 
 		cb(null, user);
-	});
+	}));
 
 ### Authentication
 
